@@ -1,0 +1,2 @@
+// Find documents where the name starts with "Holberton" using a regex filter.
+db.school.find({ name: /^Holberton/ });
